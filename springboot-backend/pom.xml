@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.cyberforge</groupId>
-	<artifactId>spring-backend</artifactId>
+	<artifactId>springboot-backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-backend</name>
+	<name>springboot-backend</name>
 	<description>Basic CRUD API</description>
 	<url/>
 	<licenses>

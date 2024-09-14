@@ -1,13 +1,13 @@
-package com.cyberforge.spring_backend;
+package com.cyberforge.springboot_backend;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringBackendApplication {
+public class SpringbootBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringBackendApplication.class, args);
+		SpringApplication.run(SpringbootBackendApplication.class, args);
 	}
 
 }

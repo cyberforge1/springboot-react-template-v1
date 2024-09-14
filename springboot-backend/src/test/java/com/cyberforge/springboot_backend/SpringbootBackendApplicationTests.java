@@ -1,10 +1,10 @@
-package com.cyberforge.spring_backend;
+package com.cyberforge.springboot_backend;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class SpringBackendApplicationTests {
+class SpringbootBackendApplicationTests {
 
 	@Test
 	void contextLoads() {
