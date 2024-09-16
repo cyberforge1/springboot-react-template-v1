@@ -5,18 +5,25 @@ package com.cyberforge.springboot_backend.controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.HashMap;
+import java.util.Map;
+
 @RestController
 public class HelloWorldController {
 
     // GET /helloworld
     @GetMapping("/helloworld")
-    public String helloWorld() {
-        return "Hello, World!";
+    public Map<String, String> helloWorld() {
+        Map<String, String> response = new HashMap<>();
+        response.put("message", "World!");
+        return response;
     }
 
     // GET /
     @GetMapping("/")
-    public String home() {
-        return "Welcome to the Todo API!";
+    public Map<String, String> home() {
+        Map<String, String> response = new HashMap<>();
+        response.put("message", "World!");
+        return response;
     }
 }
